@@ -1,1 +1,8 @@
-# -
+在这个项目中，src中的assets存放了所有数据文件，如CO2.csv和processed_city_temperature.csv等。
+在src/components/common中存放了头部、尾部和导航栏的组件。
+在src/components/dataAnalysis/CityCO2中存放了两个组件，cityView为折线图的实现，cityViewAll为柱状图的实现。
+在src/components/dataAnalysis/TopCO2中存放了实现饼图的组件。
+在src/components/dataAnalysis/WorldCO2中同样存放了两个组件，worldView为实现碳排放数据的2D地图可视化，worldViewTem为实现气温数据的2D地图可视化。
+在src/components/Home为主页面设计。
+JsonTurnCsv为一个代码，实现从json文件转为csv文件。
+router文件中为路由信息。
